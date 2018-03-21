@@ -12,7 +12,8 @@ module.exports = {
     },
     output: {
         path: path.resolve(paths.dist, buildConstants.APP_NAME),
-        filename: '[name].[hash].js'
+        filename: '[name].[hash].js',
+        publicPath: '/'
     },
     resolve,
     devtool: 'inline-source-map',
