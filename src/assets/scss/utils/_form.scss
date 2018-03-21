@@ -1,0 +1,62 @@
+//TODO - box shadow mixin?
+$transparent-black: rgba(0, 0, 0, .15);
+
+.md-theme-default {
+    &.ra-input-container {
+        &.md-input-container {
+            &::before {
+                position: absolute;
+                top: -5px;
+                right: -5px;
+                bottom: 0;
+                left: -5px;
+                z-index: -1;
+                content: '';
+                border-bottom: 1px solid $color-black;
+                transition: $swift-ease-out;
+            }
+
+            &::after {
+                position: absolute;
+                right: 50%;
+                bottom: 0;
+                left: 50%;
+                height: 3px;
+                content: '';
+                transition: $swift-ease-out;
+            }
+
+            &.ra-input-fixed-width {
+                position: relative;
+                display: inline-block;
+                width: 200px;
+                text-align: left;
+            }
+
+            &.md-input-focused {
+                label {
+                    color: $color-primary-blue;
+                }
+
+                &:not(.ra-input-fixed-width) {
+                    &::before {
+                        z-index: -1;
+                        background: $color-white;
+                        border-bottom: 1px solid $color-black;
+                        box-shadow: 0 0 .4em 0 $transparent-black;
+                    }
+                }
+
+                &::after {
+                    right: -5px;
+                    bottom: 0;
+                    left: -5px;
+                    z-index: 1;
+                    height: 3px;
+                    background-color: $color-primary-blue;
+                    transition: $swift-ease-out;
+                }
+            }
+        }
+    }
+}

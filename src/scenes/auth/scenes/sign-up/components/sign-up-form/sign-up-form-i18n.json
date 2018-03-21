@@ -1,0 +1,46 @@
+{
+  "messages": {
+    "en": {
+      "header": "",
+      "sub-header": "Create an account to access all features",
+      "user-details": "User details",
+      "company-details": "Company details",
+      "email-placeholder": "person@yourcompany.com",
+      "first-name-placeholder": "First name",
+      "family-name-placeholder": "Family name",
+      "password-placeholder": "Password",
+      "password-confirmation-placeholder": "Password confirmation",
+      "company-name-placeholder": "Company name (or nickname)",
+      "subdomain-placeholder": "Subdomain",
+      "terms-of-service": {
+        "agree": "I agree to",
+        "terms-conditions": "terms & conditions"
+      },
+      "register": "Register",
+      "sign-in": "Sign in",
+      "confirmation-instructions": "Didn't receive confirmation instructions?",
+      "unlock-instructions": "Didn't receive unlock instructions?"
+    },
+    "pl": {
+      "header": "",
+      "sub-header": "Create an account to access all features",
+      "user-details": "User details",
+      "company-details": "Company details",
+      "email-placeholder": "person@yourcompany.com",
+      "first-name-placeholder": "First name",
+      "family-name-placeholder": "Family name",
+      "password-placeholder": "Password",
+      "password-confirmation-placeholder": "Password confirmation",
+      "company-name-placeholder": "Company name (or nickname)",
+      "subdomain-placeholder": "Subdomain",
+      "terms-of-service": {
+        "agree": "I agree to",
+        "terms-conditions": "terms & conditions"
+      },
+      "register": "Register",
+      "sign-in": "Sign in",
+      "confirmation-instructions": "Didn't receive confirmation instructions?",
+      "unlock-instructions": "Didn't receive unlock instructions?"
+    }
+  }
+}

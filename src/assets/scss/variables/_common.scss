@@ -1,0 +1,20 @@
+$spacing--xsmall: .125rem;
+$spacing--small: .5rem;
+$spacing--medium: 1rem;
+$spacing--large: 1.5rem;
+$spacing--xlarge: 2.25rem;
+$spacing--xxlarge: 3rem;
+
+$border-radius--small: 4px;
+$border-radius--large: 8px;
+$shadow-radius--small: .1rem;
+$shadow-radius--large: .4rem;
+
+$box-shadow: 0 0 $shadow-radius--small 0 $box-shadow-color;
+$box-shadow--active: 0 0 $shadow-radius--large 0 $box-shadow-color;
+$box-shadow--blue: 0 0 0 $shadow-radius--small $color-primary-blue;
+
+$animation-time--short: 150ms;
+$item-height: 36px;
+$navbar-height: 100px;
+$component-max-width: 1600px;

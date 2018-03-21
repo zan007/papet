@@ -1,0 +1,16 @@
+.plan-selector {
+
+    .advert {
+        text-align: center;
+
+        h3 {
+            color: $color-gray-chateau;
+        }
+    }
+
+    .available-plans {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

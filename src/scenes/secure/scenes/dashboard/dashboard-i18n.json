@@ -1,0 +1,14 @@
+{
+  "messages": {
+    "en": {
+      "message": {
+        "hello": "welcome in dashboard component"
+      }
+    },
+    "pl": {
+      "message": {
+        "hello": "witaj w komponencie dashboard"
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+image: node:8.7
+
+stages:
+    - install
+    - test
+    - build
+    - deploy
+
+install_dependencies:
+    stage: install
+    script:
+        - yarn
+    artifacts:
+        expire_in: 1 h
+        paths:
+            - node_modules/
+
+lint_all:
+    stage: test
+    script:
+        - yarn "lint:js"
+        - yarn "lint:css"
+
+
+build_project:
+    stage: build
+    artifacts:
+        expire_in: 1 day
+        paths:
+            - dist/app/
+    script:
+        - yarn "build:prod"
+    only:
+        - master

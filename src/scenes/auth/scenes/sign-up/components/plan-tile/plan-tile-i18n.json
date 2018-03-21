@@ -1,0 +1,28 @@
+{
+  "messages": {
+    "en": {
+      "select-plan": "Select Plan",
+      "choose-duration": "Choose duration",
+      "get-it": "Get it",
+      "free-trial": "Get 14 days of trial for free.",
+      "types": {
+        "free": "free",
+        "basic": "basic",
+        "premium": "premium",
+        "enterprise": "enterprise"
+      }
+    },
+    "pl": {
+      "select-plan": "Select Plan",
+      "choose-duration": "Choose duration",
+      "get-it": "Get it",
+      "free-trial": "Get 14 days of trial for free.",
+      "types": {
+        "free": "free",
+        "basic": "basic",
+        "premium": "premium",
+        "enterprise": "enterprise"
+      }
+    }
+  }
+}

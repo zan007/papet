@@ -1,0 +1,66 @@
+{
+  "name": "Papet",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "PPloszaj",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-vue-app": "^1.2.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.5",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-vue": "beta",
+    "axios": "0.16.2",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "foundation-sites": "^6.4.4-rc1",
+    "html-webpack-plugin": "^2.30.1",
+    "workbox-webpack-plugin": "^3.0.0",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
+    "sass-lint": "^1.11.1",
+    "sass-loader": "^6.0.6",
+    "sass-resources-loader": "^1.3.0",
+    "style-loader": "^0.18.2",
+    "vue-loader": "^13.0.1",
+    "vue-material": "^0.7.5",
+    "vue-template-compiler": "^2.3.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.5.1",
+    "yargs": "^8.0.2"
+  },
+  "dependencies": {
+    "@kazupon/vue-i18n-loader": "^0.2.1",
+    "axios": "0.16.2",
+    "vue": "^2.3.4",
+    "vue-axios": "^2.0.2",
+    "vue-i18n": "^7.0.5",
+    "vue-router": "^2.7.0",
+    "vuex": "^2.4.0"
+  },
+  "pre-commit": [
+    "lint:css",
+    "lint:js"
+  ],
+  "scripts": {
+    "start": "webpack-dev-server --hot --config ./build/webpack.config.dev.js",
+    "server:dev": "npm start",
+    "server:styleguide": "webpack-dev-server --hot --config ./build/webpack.config.styleguide.js",
+    "build:prod": "webpack --config ./build/webpack.config.prod.js",
+    "build:styleguide": "webpack --config ./build/webpack.config.styleguide.js",
+    "lint:js": "eslint src/**/*.vue src/**/*.js",
+    "lint:css": "sass-lint --config ./.sass-lint.yml -v -q"
+  },
+  "preferGlobal": true,
+  "private": true
+}

@@ -1,0 +1,40 @@
+// sass-lint:disable nesting-depth
+.md-theme-default {
+    &.md-button {
+        &:not(disabled) {
+            &.ra-button {
+                &:not(disabled) {
+                    font-family: $roboto-bold;
+                    font-weight: 600;
+
+                    &.link {
+                        color: $color-primary-blue;
+                    }
+
+                    &.md-raised {
+                        &:not([disabled]) {
+                            color: $color-white;
+                            background-color: $color-primary-blue;
+
+                            &:hover {
+                                color: $color-white-four;
+                                background-color: $color-primary-blue;
+                            }
+                        }
+
+                        &[disabled] {
+                            background: $color-white-four;
+                        }
+                    }
+
+                    &.md-icon-button {
+                        &:hover {
+                            color: $color-primary-blue;
+                            background-color: $color-white-four;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

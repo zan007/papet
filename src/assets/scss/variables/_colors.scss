@@ -1,0 +1,61 @@
+// Whites
+$color-white: #fff;
+$color-white-two: #fafafa;
+$color-white-three: #f3f3f3;
+$color-white-four: #d3d2d2;
+
+// Greys
+$color-gray-mercury: #e5e5e5;
+$color-gray-porcelain: #e8e9ea;
+$color-warm-grey-two: #979797;
+$color-gray-chateau: #9aa5aa;
+$color-gray-dusty: #999;
+$color-warm-grey: #767676;
+$color-gray-pale-sky: #70747a;
+$color-greyish-brown: #474747;
+$color-gray-mine-shaft: #333;
+$color-black: #000;
+
+// Blues
+$color-primary-blue: #00f;
+$color-blue-ebony: #202b34;
+
+// Greens
+$color-apple-green: #7ed321;
+$color-faded-green: #2cc76a;
+$color-green-mountain-meadow: #22bb5f;
+$color-true-green: #0a0;
+$color-green-goblin: #398439;
+
+//Reds
+$color-pink: #f1c5d3;
+$color-faded-red: #f45c57;
+$color-red-burnt-sienna: #eb534e;
+$color-red: #d0011b;
+$color-red-mexican: #ac2925;
+
+// Disabled
+$disabled-bg: rgba(0, 0, 0, .11);
+$box-shadow-color: rgba(0, 0, 0, .15);
+$disabled-text: rgba(0, 0, 0, .22);
+$chart-background-size: 10px 10px;
+$chart-background-image: linear-gradient(45deg, $color-apple-green 15%, transparent 15%, transparent 50%, $color-apple-green 50%, $color-apple-green 65%, transparent 65%, transparent);
+
+$ra-colors: (
+    'white':            $color-white,
+    'white-two':        $color-white-two,
+    'white-three':      $color-white-three,
+    'white-four':       $color-white-four,
+    'warm-grey':        $color-warm-grey,
+    'warm-grey-two':    $color-warm-grey-two,
+    'greyish-brown':    $color-greyish-brown,
+    'gray-chateau':     $color-gray-chateau,
+    'black':            $color-black,
+    'blue':             $color-primary-blue,
+    'green':            $color-apple-green,
+    'true-green':       $color-true-green,
+    'faded-green':      $color-faded-green,
+    'red':              $color-red,
+    'faded-red':        $color-faded-red,
+    'pink':             $color-pink
+);

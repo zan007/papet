@@ -1,0 +1,12 @@
+// sass-lint:disable nesting-depth
+.md-theme-default {
+    .ra-progress-circle {
+        &.md-spinner {
+            .md-spinner-draw {
+                .md-spinner-path {
+                    stroke: $color-primary-blue;
+                }
+            }
+        }
+    }
+}

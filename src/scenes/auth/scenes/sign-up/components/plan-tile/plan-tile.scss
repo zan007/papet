@@ -1,0 +1,145 @@
+.plan-tile {
+    display: inline-block;
+    width: 262px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+
+    header {
+        position: relative;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        color: $color-white;
+        text-transform: uppercase;
+        background-color: $color-blue-ebony;
+
+        .price-tag {
+            @include border-radius(50%);
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            width: 120px;
+            height: 120px;
+            font-size: 30px;
+            line-height: 120px;
+            background-color: $color-faded-green;
+            transform: translate(-50%, -50%);
+        }
+
+        .plan-name {
+            margin-top: 10px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .plan-duration {
+            color: $color-gray-dusty;
+        }
+    }
+
+    .features {
+        min-height: 214px;
+        padding: 20px;
+        background-color: $color-gray-porcelain;
+
+        ul {
+            margin: 0;
+        }
+
+        li {
+            padding: 13px 0;
+            list-style: none;
+        }
+    }
+
+    .select-button {
+        padding: 20px 35px;
+        font-size: 18px;
+        font-weight: 400;
+        color: $color-white;
+        cursor: pointer;
+        background-color: $color-faded-green;
+        border: solid 1px transparent;
+
+        &:hover {
+            background-color: $color-green-mountain-meadow;
+            border-color: $color-green-goblin;
+        }
+
+        &.inactive {
+            cursor: default;
+            background-color: $color-faded-green;
+        }
+    }
+
+    &.highlight {
+        .price-tag,
+        .select-button {
+            background-color: $color-faded-red;
+        }
+    }
+
+    .duration-details {
+        position: relative;
+        padding: 10px;
+        text-align: left;
+        background-color: $color-gray-porcelain;
+
+        .header {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .close-icon {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: $color-gray-mine-shaft;
+            cursor: pointer;
+
+            &:hover {
+                color: $color-black;
+            }
+        }
+
+        .price-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+
+            .price {
+                display: inline-block;
+                text-align: left;
+            }
+
+            .choose-button {
+                display: inline-block;
+                padding: 6px 12px;
+                font-size: 14px;
+                color: $color-white;
+                text-align: center;
+                white-space: nowrap;
+                vertical-align: middle;
+                cursor: pointer;
+                user-select: none;
+                background-color: $color-faded-red;
+                background-image: none;
+
+                &:hover {
+                    background-color: $color-red-burnt-sienna;
+                    border: solid 1px $color-red-mexican;
+                }
+            }
+        }
+
+        .trial-info {
+            padding: 10px;
+            color: $color-gray-pale-sky;
+            text-align: center;
+        }
+    }
+}

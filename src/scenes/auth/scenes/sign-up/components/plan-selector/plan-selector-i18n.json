@@ -1,0 +1,26 @@
+{
+  "messages": {
+    "en": {
+      "advert": {
+        "header": "14 days Free Trial on All Accounts",
+        "sub-header": "No risk. No hidden fees. Cancel at anytime."
+      },
+      "plan": {
+        "service-limit": "Services limit",
+        "alerts": "Alerts",
+        "alert-conditions": "Alert conditions"
+      }
+    },
+    "pl": {
+      "advert": {
+        "header": "14 days Free Trial on All Accounts",
+        "sub-header": "No risk. No hidden fees. Cancel at anytime."
+      },
+      "plan": {
+        "service-limit": "Services limit",
+        "alerts": "Alerts",
+        "alert-conditions": "Alert conditions"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+@import 'vue-material/src/core/stylesheets/core';
+@import 'vue-material/src/core/components/mdInkRipple/mdInkRipple';
+@import 'vue-material/src/components/mdButton/mdButton';
+@import 'vue-material/src/components/mdTooltip/mdTooltip';
+@import 'vue-material/src/components/mdButtonToggle/mdButtonToggle';
+@import 'vue-material/src/components/mdIcon/mdIcon';
+@import 'vue-material/src/components/mdInputContainer/mdInputContainer';
+@import 'vue-material/src/components/mdList/mdList';
+@import 'vue-material/src/components/mdToolbar/mdToolbar';
+@import 'vue-material/src/components/mdSpinner/mdSpinner';
+@import 'vue-material/src/core/stylesheets/variables.scss';
+
+.material-icons {
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    // Preferred icon size
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    // Support for all WebKit browsers.
+    // Support for Safari and Chrome.
+    text-rendering: optimizeLegibility;
+    // Support for Firefox.
+    // Support for IE.
+    font-feature-settings: 'liga';
+}

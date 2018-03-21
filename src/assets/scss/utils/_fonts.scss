@@ -1,0 +1,28 @@
+@include font-face('dosisregular', 'Dosis-Regular');
+@include font-face('dosisbold', 'Dosis-Bold');
+@include font-face('dosissemibold', 'Dosis-SemiBold');
+@include font-face('robotoregular', 'Roboto-Regular');
+@include font-face('robotobold', 'Roboto-Bold');
+@include font-face('robotolight', 'Roboto-Light');
+@include font-face('robotomedium', 'Roboto-Medium');
+@include font-face('robotolight_italic', 'Roboto-LightItalic');
+@include font-face('robotobold_italic', 'Roboto-BoldItalic');
+@include font-face('rubikblack', 'Rubik-Black');
+@include font-face('rubikbold', 'Rubik-Bold');
+@include font-face('rubikregular', 'Rubik-Regular');
+@include font-face('roboto_monobold', 'RobotoMono-Bold');
+@include font-face('roboto_monolight', 'RobotoMono-Light');
+@include font-face('roboto_monoregular', 'RobotoMono-Regular');
+@include font-face('roboto_monomedium', 'RobotoMono-Medium');
+
+// Material icons
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/MaterialIcons-Regular.eot'),
+    local('Material Icons'), local('MaterialIcons-Regular'),
+    url('/fonts/MaterialIcons-Regular.woff2') format('woff2'),
+    url('/fonts/MaterialIcons-Regular.woff') format('woff'),
+    url('/fonts/MaterialIcons-Regular.ttf') format('truetype');
+}

@@ -1,0 +1,19 @@
+/// font-face Mixin: Generate `@font-face` declaration
+/// @param {String} $family name for font-family
+/// @param {String} $file file name (without extension)
+
+@mixin font-face($family, $file) {
+    @font-face {
+        font-family: $family;
+        font-style: normal;
+        font-weight: normal;
+        src: url('/fonts/#{$file}.eot'),
+        url('/fonts/#{$file}.woff') format('woff'),
+        url('/fonts/#{$file}.ttf') format('truetype'),
+        url('/fonts/#{$file}.svg##{$file}') format('svg');
+    }
+}
+
+@mixin border-radius($radius) {
+    border-radius: $radius;
+}

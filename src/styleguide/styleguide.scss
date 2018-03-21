@@ -1,0 +1,44 @@
+@import '~assets/scss/variables/index';
+
+$styleguide-border-gray: #ccc;
+
+.styleguide {
+    .main-sidebar-links {
+        padding: 0;
+        border: 1px solid $styleguide-border-gray;
+    }
+
+    .menu-button {
+        color: $color-white;
+    }
+
+    .main-styleguide-content {
+        padding-top: 15px;
+    }
+
+    .md-theme-default {
+        &.md-toolbar {
+            color: $color-primary-blue;
+            background-color: $color-primary-blue;
+        }
+    }
+
+    .logo {
+        padding: 15px;
+        margin-left: 10%;
+    }
+
+    .md-title {
+        margin-top: 10px;
+        font-family: $roboto-light;
+        color: $color-white;
+    }
+
+    .nav-header {
+        justify-content: flex-end;
+    }
+
+    .hide-sidebar {
+        display: none;
+    }
+}
