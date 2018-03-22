@@ -1,11 +1,11 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import VueMaterial from 'vue-material';
+import Vuetify from 'vuetify';
 
 import Styleguide from './styleguide';
 
 Vue.use(VueRouter);
-Vue.use(VueMaterial);
+Vue.use(Vuetify);
 
 const styleguide = new Vue({
     template: '<styleguide />',

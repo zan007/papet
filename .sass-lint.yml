@@ -4,7 +4,6 @@ files:
   include: 'src/**/*.s+(a|c)ss'
   ignore:
     - 'src/assets/scss/base/_fonts.scss'
-    - 'src/assets/scss/vendors/_foundation.scss'
 rules:
   # Extends
   extends-before-mixins: 2

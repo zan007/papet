@@ -15,7 +15,7 @@ module.exports = {
             inline: true,
             open: true,
             port: ports[appName],
-            progress: true,
+//            progress: true,
             publicPath: '/'
         };
     }
